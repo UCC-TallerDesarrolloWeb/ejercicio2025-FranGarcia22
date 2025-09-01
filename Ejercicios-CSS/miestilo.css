@@ -1,0 +1,22 @@
+div {
+  border: 1px solid rgb(124, 58, 27);
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(23, 205, 144, 0.636);
+  border-radius: 15px;
+  box-shadow: 10px 11px rgb(201, 114, 114);
+}
+#icono {
+  width: 20%;
+  float: left;
+  border-radius: 50%;
+}
+
+body {
+  text-align: center;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  background: linear-gradient(to right, rgb(139, 86, 86), rgb(175, 175, 36));
+}
+h3 {
+  text-shadow: 10px 5px black;
+}
