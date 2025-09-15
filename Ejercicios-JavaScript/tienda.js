@@ -61,3 +61,30 @@ const productos = [
     imagen: "protectores-manos.webp",
   },
 ];
+
+let mostrarDetalle=() => {
+  document.getElementById("detalle").style.display="block";
+}
+
+let cerrarModa1=() => {
+  document.getElementById("detalle").style.display="none";
+}
+
+
+let mostrarcatalogo = () =>
+{
+  let contenido ="";
+
+  productos.forEach((prod)=> {
+    contenido+=  <div>  
+      <img src="../Ejercicios-JavaScript/images/cabezal-cerrado.webp"
+          alt="cabezal-cerrado"
+        />
+        <h3>Cabezal Cerrado</h3>
+        <button type="button" onclick="mostrarDetalle()">Ver detalle</button>
+      </div>
+
+    
+  })
+  document.getElementById("catalog0").innerHTML=contenido;
+}
